@@ -1,10 +1,10 @@
-""  .vimrc file
+"" vimrc file
 "
 " vim: set foldmethod=marker:
 "
 " Create on: 6th October 2013
-" Last edit: 7th October 2013
-" version: 2
+" Last edit: 25th October 2013
+" version: 3
 " by: François LASSERRE
 "
 " This file is available on my github repo:
@@ -13,12 +13,15 @@
 
 " Set nocompatible mode for vi
 set nocompatible
+syntax on
+set backspace=indent,eol,start
 
 " Define file format to utf-8
 set encoding=utf-8 nobomb       " No Byte Order Mark!
 set fileencoding=utf-8
 set binary
 
+set nu                          " Show line number
 set hlsearch
 
 set smartindent
