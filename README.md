@@ -1,4 +1,4 @@
-<h1>SETUP:</h1>
+# SETUP:
 
 To setup on your system, open a terminal and paste the following code.
 
