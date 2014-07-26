@@ -3,8 +3,8 @@
 " vim: set foldmethod=marker:
 "
 " Create on: 6th October 2013
-" Last edit: 25th October 2013
-" version: 3
+" Last edit: 26th July 2014
+" version: 4
 " by: François LASSERRE
 "
 " This file is available on my github repo:
@@ -12,12 +12,18 @@
 "
 
 set nocompatible                " Set nocompatible mode for vi
-set backspace=indent,eol,start
+
+set autoindent
+set autoread
+set background=dark
+set backspace=1
+set nobomb
+set encoding=utf-8
+set fileencoding=utf-8
+
 set listchars=tab:\ \ ,trail:¤,extends:>,precedes:<,nbsp:¬
 set list
 
-set encoding=utf-8 nobomb       " No Byte Order Mark!
-set fileencoding=utf-8
 set binary
 set noeol                       " Don't add empty newlines at the end of files
 
