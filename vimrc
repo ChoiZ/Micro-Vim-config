@@ -35,7 +35,10 @@ match Error /\s\+$/             " Highlight trailing whitespaces
 
 set textwidth=80
 set wrap
-set formatoptions=tcqjn12       " More informations :help fo-table
+set formatoptions=tcqn12       " More informations :help fo-table
+if v:version >= 740
+    set formatoptions=tcqjn12       " More informations :help fo-table
+endif
 set smartindent
 set shiftwidth=4                " Use 4 spaces for indent
 set tabstop=4                   " An indentation every 4 columns
